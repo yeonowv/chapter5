@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 24px;
+    background: white;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tool-list {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.tool-card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    border: 1px solid #e3e7eb;
+}
+
+.tool-card h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
